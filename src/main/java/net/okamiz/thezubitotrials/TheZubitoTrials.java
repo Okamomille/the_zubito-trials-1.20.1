@@ -2,6 +2,8 @@ package net.okamiz.thezubitotrials;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.okamiz.thezubitotrials.entity.TZTEntities;
+import net.okamiz.thezubitotrials.util.TZTRegistries;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -12,6 +14,8 @@ public class TheZubitoTrials implements ModInitializer {
 	@Override
 	public void onInitialize() {
 
+		TZTEntities.registerTZTEntities();
+		TZTRegistries.registerTZTStuffs();
 
 	}
 }
