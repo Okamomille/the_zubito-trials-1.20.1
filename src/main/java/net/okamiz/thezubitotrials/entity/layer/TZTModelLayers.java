@@ -7,4 +7,6 @@ import net.okamiz.thezubitotrials.TheZubitoTrials;
 public class TZTModelLayers {
     public static final EntityModelLayer MAGMA_SKELETON =
             new EntityModelLayer(new Identifier(TheZubitoTrials.MOD_ID, "magma_skeleton"), "main");
+    public static final EntityModelLayer DARK_FOREST_SPIDER =
+            new EntityModelLayer(new Identifier(TheZubitoTrials.MOD_ID, "dark_forest_spider"), "main");
 }
