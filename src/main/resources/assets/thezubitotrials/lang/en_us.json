@@ -1,5 +1,11 @@
 {
 
-  "entity.thezubitotrials.magma_skeleton" : "Magma Skeleton"
+  "itemgroup.the_zubito_trials_group" : "The Zubito Trials",
+
+
+  "item.thezubitotrials.eternal_executionner_axe" : "Executionner's Axe",
+
+  "entity.thezubitotrials.magma_skeleton" : "Magma Skeleton",
+  "entity.thezubitotrials.dark_forest_spider" : "Dark Forest Spider"
 
 }
