@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "thezubitotrials:item/piglin_executionner_spawn_egg"
+  }
+}

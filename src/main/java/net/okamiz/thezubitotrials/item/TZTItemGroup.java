@@ -19,6 +19,10 @@ public class TZTItemGroup {
 
                     entries.add(TZTItems.EXECUTIONNER_AXE);
 
+                    entries.add(TZTItems.MAGMA_SKELETON_SPAWN_EGG);
+                    entries.add(TZTItems.DARK_FOREST_SPIDER_SPAWN_EGG);
+                    entries.add(TZTItems.PIGLIN_EXECUTIONNER_SPAWN_EGG);
+
                     }).build());
 
     public static void registerItemGroups(){

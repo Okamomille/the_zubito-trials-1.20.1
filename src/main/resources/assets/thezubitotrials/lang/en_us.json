@@ -5,7 +5,12 @@
 
   "item.thezubitotrials.eternal_executionner_axe" : "Eternal Executionner's Axe",
 
+  "item.thezubitotrials.magma_skeleton_spawn_egg" : "Magma Skeleton Spawn Egg",
+  "item.thezubitotrials.dark_forest_spider_spawn_egg" : "Dark Forest Spider Spawn Egg",
+  "item.thezubitotrials.piglin_executionner_spawn_egg" : "Piglin Executionner Spawn Egg",
+
   "entity.thezubitotrials.magma_skeleton" : "Magma Skeleton",
-  "entity.thezubitotrials.dark_forest_spider" : "Dark Forest Spider"
+  "entity.thezubitotrials.dark_forest_spider" : "Dark Forest Spider",
+  "entity.thezubitotrials.piglin_executionner" : "Piglin Executionner"
 
 }

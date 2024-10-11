@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "thezubitotrials:item/dark_forest_spider_spawn_egg"
+  }
+}

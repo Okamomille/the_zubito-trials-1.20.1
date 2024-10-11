@@ -10,6 +10,7 @@ import net.minecraft.util.Identifier;
 import net.okamiz.thezubitotrials.TheZubitoTrials;
 import net.okamiz.thezubitotrials.entity.custom.DarkForestSpiderEntity;
 import net.okamiz.thezubitotrials.entity.custom.MagmaSkeletonEntity;
+import net.okamiz.thezubitotrials.entity.custom.PiglinExecutionnerEntity;
 
 public class TZTEntities {
 
@@ -23,6 +24,10 @@ public class TZTEntities {
             FabricEntityTypeBuilder.create(SpawnGroup.MONSTER, DarkForestSpiderEntity::new)
                     .dimensions(EntityDimensions.fixed(1.5f, 0.85f)).build());
 
+    public static final EntityType<PiglinExecutionnerEntity> PIGLIN_EXECUTIONNER = Registry.register(Registries.ENTITY_TYPE,
+            new Identifier(TheZubitoTrials.MOD_ID, "piglin_executionner"),
+            FabricEntityTypeBuilder.create(SpawnGroup.MONSTER, PiglinExecutionnerEntity::new)
+                    .dimensions(EntityDimensions.fixed(0.8f, 1.9f)).build());
 
 
     public static void registerTZTEntities(){

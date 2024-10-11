@@ -9,4 +9,7 @@ public class TZTModelLayers {
             new EntityModelLayer(new Identifier(TheZubitoTrials.MOD_ID, "magma_skeleton"), "main");
     public static final EntityModelLayer DARK_FOREST_SPIDER =
             new EntityModelLayer(new Identifier(TheZubitoTrials.MOD_ID, "dark_forest_spider"), "main");
+
+    public static final EntityModelLayer PIGLIN_EXECUTIONNER =
+            new EntityModelLayer(new Identifier(TheZubitoTrials.MOD_ID, "piglin_executionner"), "main");
 }
