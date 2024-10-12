@@ -1,7 +1,9 @@
 package net.okamiz.thezubitotrials.entity.client;
 
+import net.minecraft.client.render.VertexConsumerProvider;
 import net.minecraft.client.render.entity.BipedEntityRenderer;
 import net.minecraft.client.render.entity.EntityRendererFactory;
+import net.minecraft.client.util.math.MatrixStack;
 import net.minecraft.entity.mob.AbstractPiglinEntity;
 import net.minecraft.entity.mob.MobEntity;
 import net.minecraft.util.Identifier;
@@ -22,5 +24,12 @@ public class PiglinExecutionnerRenderer<T extends PiglinExecutionnerEntity> exte
     @Override
     public Identifier getTexture(T entity) {
         return TEXTURE;
+    }
+
+    @Override
+    public void render(T mobEntity, float f, float g, MatrixStack matrixStack, VertexConsumerProvider vertexConsumerProvider, int i) {
+        matrixStack.scale(1.2f, 1.2f, 1.2f);
+
+        super.render(mobEntity, f, g, matrixStack, vertexConsumerProvider, i);
     }
 }
