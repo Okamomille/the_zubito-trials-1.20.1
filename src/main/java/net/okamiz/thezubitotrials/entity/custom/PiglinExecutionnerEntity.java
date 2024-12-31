@@ -22,7 +22,7 @@ public class PiglinExecutionnerEntity extends PiglinBruteEntity {
     @Override
     protected void initEquipment(Random random, LocalDifficulty localDifficulty) {
         this.equipStack(EquipmentSlot.MAINHAND, new ItemStack(TZTItems.EXECUTIONNER_AXE));
-        this.setEquipmentDropChance(EquipmentSlot.MAINHAND, 100f);
+        this.setEquipmentDropChance(EquipmentSlot.MAINHAND, 7f);
     }
 
     public static DefaultAttributeContainer.Builder createPiglinExecutionnerAttributes(){

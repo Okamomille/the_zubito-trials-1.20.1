@@ -19,6 +19,21 @@ public class TZTItemGroup {
 
                     entries.add(TZTItems.EXECUTIONNER_AXE);
 
+
+                    entries.add(TZTItems.DARK_FLAME_HELMET);
+                    entries.add(TZTItems.DARK_FLAME_CHESTPLATE);
+                    entries.add(TZTItems.DARK_FLAME_LEGGINGS);
+                    entries.add(TZTItems.DARK_FLAME_BOOTS);
+
+
+                    entries.add(TZTItems.KEY_OF_THE_ETERNAL_FLAME);
+                    entries.add(TZTItems.KEY_OF_THE_DARKEST_FOREST);
+
+                    entries.add(TZTItems.ETERNAL_FLAME);
+                    entries.add(TZTItems.DARK_FOREST_SOUL);
+                    entries.add(TZTItems.MAGMATIC_BONE);
+
+
                     entries.add(TZTItems.MAGMA_SKELETON_SPAWN_EGG);
                     entries.add(TZTItems.DARK_FOREST_SPIDER_SPAWN_EGG);
                     entries.add(TZTItems.PIGLIN_EXECUTIONNER_SPAWN_EGG);
